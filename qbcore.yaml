@@ -414,22 +414,22 @@ tasks:
     ref: main
     src: https://github.com/TheHorizon-RP/lj-inventory
 
-    - action: download_github
+  - action: download_github
     dest: ./resources/[qb]/qb-vault
     ref: main
     src: https://github.com/TheHorizon-RP/qb-vault
 
-    - action: download_github
+  - action: download_github
     dest: ./resources/[qb]/qb-target
     ref: main
     src: https://github.com/TheHorizon-RP/qb-target
 
-    - action: download_github
+  - action: download_github
     dest: ./resources/[qb]/qb-weapons
     ref: main
     src: https://github.com/TheHorizon-RP/qb-weapons
 
-    - action: download_github
+  - action: download_github
     dest: ./resources/[qb]/qb-vehicleshop
     ref: main
     src: https://github.com/TheHorizon-RP/qb-vehicleshop
@@ -447,12 +447,12 @@ tasks:
     ref: main
     src: https://github.com/TheHorizon-RP/qb-management
 
-   - action: download_github
+  - action: download_github
     dest: ./resources/[qb]/qb-storerobbery
     ref: main
     src: https://github.com/TheHorizon-RP/qb-storerobbery
 
-   - action: download_github
+  - action: download_github
     dest: ./resources/[qb]/qb-smallresources
     ref: main
     src: https://github.com/TheHorizon-RP/qb-smallresources
@@ -466,10 +466,6 @@ tasks:
     dest: ./resources/[qb]/qb-policejob
     ref: main
     src: https://github.com/TheHorizon-RP/qb-policejob
-
-  # Clean up
-  - action: remove_path
-    path: ./tmp
 
 # Qb-Addons
 
