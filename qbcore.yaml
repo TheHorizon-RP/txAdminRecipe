@@ -471,9 +471,9 @@ tasks:
 
   - action: download_github
     dest: ./resources/[qb-addons]/keep-crafting
-    ref: main
+    ref: master
     src: https://github.com/TheHorizon-RP/keep-crafting
-
+          
   - action: download_github
     dest: ./resources/[qb-addons]/qb-extras
     ref: main
