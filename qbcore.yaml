@@ -101,23 +101,7 @@ tasks:
     dest: ./resources/[voice]/qb-radio
     ref: main
     src: https://github.com/qbcore-framework/qb-radio
-    
-    # MAPS
-  - action: download_github
-    dest: ./resources/[defaultmaps]/hospital_map
-    ref: main
-    src: https://github.com/qbcore-framework/hospital_map
-    
-  - action: download_github
-    dest: ./resources/[defaultmaps]/dealer_map
-    ref: main
-    src: https://github.com/qbcore-framework/dealer_map
-    
-  - action: download_github
-    dest: ./resources/[defaultmaps]/[prison_map]
-    ref: main
-    src: https://github.com/qbcore-framework/prison_map
-    
+        
   # Downloading QBCore resources
 
   - action: download_github
