@@ -212,11 +212,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-apartments
 
   - action: download_github
-    dest: ./resources/[qb]/qb-vehiclekeys
-    ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclekeys
-
-  - action: download_github
     dest: ./resources/[qb]/qb-mechanicjob
     ref: main
     src: https://github.com/qbcore-framework/qb-mechanicjob
@@ -462,6 +457,11 @@ tasks:
     ref: main
     src: https://github.com/TheHorizon-RP/qb-policejob
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-vehiclekeys
+    ref: main
+    src: https://github.com/TheHorizon-RP/qb-vehiclekeys
+
 # Qb-Addons
 
   - action: download_github
@@ -478,6 +478,11 @@ tasks:
     dest: ./resources/[qb-addons]/fivem-tgiann-skillbar
     ref: main
     src: https://github.com/TheHorizon-RP/fivem-tgiann-skillbar
+
+  - action: download_github
+    dest: ./resources/[qb-addons]/ps-ui
+    ref: main
+    src: https://github.com/Project-Sloth/ps-ui
 
   # Clean up
   - action: remove_path
